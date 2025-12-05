@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e6e6fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #d8bfd8;
+    padding: 20px;
+    border: 2px solid #7d4b4a;
+    margin: 20px;
+}
+
+header h1 {
+    color: #dda08d;
+    font-size: 28px;
+    margin: 0;
+	text-align: left;
+}
+
+#email {
+    float: right;
+    margin-top: -25px;
+    margin-right: 20px;
+    color: #0033aa;
+}
+
+.sectiune {
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid #b57c75;
+    background: #cdc0ff;
+	
+}
+h1 {
+    color: #7d3c34;
+    text-align: center;
+    margin-bottom: 15px;
+	text-align: right;
+}
+h2 {
+    color: #7d3c34;
+    text-align: center;
+    margin-bottom: 15px;
+	text-align: center;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+	margin-right: 0;
+    border-collapse: collapse;
+	
+}
+
+th, td {
+    border: 2px solid #7d4b4a;
+    padding: 10px;
+    text-align: center;
+}
+
+.schema {
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.resursa {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+#monitorizare {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#slideshow img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 15px;
+}
+
+/* SLIDESHOW JOS */
+.slide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slides {
+    width: 60%;
+    text-align: center;
+}
+
+.car-slide {
+    width: 30%;
+    margin: 10px;
+}
+
+.nav {
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+}
